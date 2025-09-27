@@ -1,0 +1,60 @@
+.loader-container {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #0F2027;
+  background-repeat: repeat-x;
+  backdrop-filter: blur(700px);
+}
+
+.motion-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
+}
+
+.c1 {
+  background-color: #2C5364;
+  margin-right: 20px;
+  animation: zoom-out-zoom-in 1.5s infinite;
+}
+
+.c2 {
+  background-color: #00C9FF;
+  margin-right: 20px;
+  animation: zoom-out-zoom-in 1.5s infinite;
+  animation-delay: .2s;
+}
+
+.c3 {
+  background-color: #0400ff;
+  margin-right: 20px;
+  animation: zoom-out-zoom-in 1.5s infinite;
+  animation-delay: .4s;
+}
+
+.c4 {
+  background-color: #92FE9D;
+  margin-right: 20px;
+  animation: zoom-out-zoom-in 1.5s infinite;
+  animation-delay: .6s;
+}
+
+@keyframes zoom-out-zoom-in {
+  0% {
+    transform: scale(1);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    transform: scale(0.1);
+    box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.6);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.8);
+  }
+}
