@@ -21,17 +21,5 @@ You can view the live demo here:
 
 ---
 
-## 🔹 How to Use
 
-**Clone the repository**
-```bash
-git clone https://github.com/thanish2806/loader.git
-
-
-## 🔹 Author
-
-THANISH P
-[Portfolio](https://thanish-dev.netlify.app/)
-[Github](https://thanish2806.github.io/)
-[Mail](thanish059@gmail.com)
 
